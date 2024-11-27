@@ -37,14 +37,14 @@ export default defineConfig({
     outDir: "dist",
   },
   server: {
-    https: false, // 是否开启 https
-    open: true, // 是否自动在浏览器中打开
-    port: 8001, // 端口号
-    host: "0.0.0.0",
+    // https: false, // 是否开启 https
+    // open: true, // 是否自动在浏览器中打开
+    // port: 8001, // 端口号
+    // host: "0.0.0.0",
     // 跨域代理
     proxy: {
       '/api': {
-        target: "http://localhost:3000",  // 后台接口
+        // target: "http://localhost:3000",  // 后台接口
         changeOrigin: true,
         // secure: false, // 如果是https接口，需要配置这个参数
         // ws: true, //websocket支持
