@@ -10,6 +10,7 @@ import { resolve } from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // publicPath:'./',
   base: './', // 生产环境下的公共路径
   server:{
     // host:'0.0.0.0', // 默认是 localhost
